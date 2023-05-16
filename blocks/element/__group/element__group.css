@@ -1,0 +1,10 @@
+.element__group {
+  background-color: #fff;
+  color: black;
+  display: flex;
+  padding: 25px 15px 31px 21px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin: 0;
+  height: 79px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <meta name="description" content="Страница о путешествии по России">
+  <meta name="keywords" content="">
+  <meta name="author" content="Никита Кудашев">
+  <meta name="author" content="Практикум">
+  <title>Место</title>
+</head>
+<body>
+  <section class="popup popup_opened">
+    <form class="popup__profile">
+      <div class="popup__close">
+        <img class="popup__close-image" src="./images/Close Icon.png" alt="Закрыть">
+      </div>
+      <div class="popup__main-container">
+        <h1 class="popup__heading">Редактировать профиль</h1>
+        <fieldset class="popup__container">
+          <input class="popup__input" type="text" name="" id="name" placeholder="Жак-Ив Кусто" required>
+        </fieldset>
+        <fieldset class="popup__container">
+          <input class="popup__input" type="text" name="" id="about" placeholder="Исследователь океана" required>
+        </fieldset>
+        <button class="popup__submit" type="submit">Сохранить</button>
+      </div>
+    </form>
+  </section>
+  <div class="page"> 
+    <header class="header">
+      <a class="header__logo" href="#"></a>
+    </header>
+    <main class="content">
+      <section class="profile">
+        <img class="profile__avatar" src="./images/profile-avatar.jpg" alt="Аватар">
+        <div class="profile__info">
+          <h1 class="profile__name">Жак-Ив Кусто</h1>
+          <button class="profile__edit"></button>  
+          <p class="profile__about">Исследователь океана</p>
+        </div>
+        <button class="profile__add"></button>
+      </section>
+      <section class="elements">
+        <div class="element">
+          <img  class="element__image" src="./images/karachaevsk.jpg" alt="Карачаевск">
+          <div  class="element__group">
+            <h2 class="element__title">Карачаевск</h2>
+            <button class="element__button-like"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img  class="element__image" src="./images/elbroos.jpg" alt="Гора Эльбрус">
+          <div  class="element__group">
+            <h2 class="element__title">Гора Эльбрус</h2>
+            <button class="element__button-like"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img  class="element__image" src="./images/dombay.jpg" alt="Домбай">
+          <div  class="element__group">
+            <h2 class="element__title">Домбай</h2>
+            <button class="element__button-like"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img  class="element__image" src="./images/elbroos.jpg" alt="Гора Эльбрус">
+          <div  class="element__group">
+            <h2 class="element__title">Гора Эльбрус</h2>
+            <button class="element__button-like"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img  class="element__image" src="./images/dombay.jpg" alt="Домбай">
+          <div  class="element__group">
+            <h2 class="element__title">Домбай</h2>
+            <button class="element__button-like"></button>
+          </div>
+        </div>
+    <div class="element">
+      <img  class="element__image" src="./images/karachaevsk.jpg" alt="Карачаевск">
+      <div  class="element__group">
+        <h2 class="element__title">Карачаево-Черкеск</h2>
+        <button class="element__button-like"></button>
+      </div>
+    </div>        
+
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2023 Mesto Russia</p>
+    </footer>
+  </div> 
+</div>
+
+</body>
+</html>

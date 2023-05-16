@@ -1,0 +1,25 @@
+.profile__edit {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  background-image: url(../../../images/eddit-button.png);
+  background-size: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .profile__edit {
+    width: 18px;
+    height: 18px;
+    margin-top: 0;
+    align-self: center;
+  }
+}
+
+.profile__edit:hover {
+  opacity: .6;
+}
