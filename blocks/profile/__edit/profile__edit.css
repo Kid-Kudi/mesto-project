@@ -3,12 +3,9 @@
   height: 24px;
   background-color: transparent;
   border: 1px solid #FFFFFF;
-  background-image: url(../../../images/eddit-button.png);
+  background-image: url(../../../images/eddit-button.svg);
   background-size: 10px;
-  background-position: center;
-  background-repeat: no-repeat;
   margin-top: 15px;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -18,8 +15,4 @@
     margin-top: 0;
     align-self: center;
   }
-}
-
-.profile__edit:hover {
-  opacity: .6;
 }

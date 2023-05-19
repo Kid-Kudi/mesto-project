@@ -10,4 +10,8 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: auto;
 }

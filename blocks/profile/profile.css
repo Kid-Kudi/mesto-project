@@ -3,6 +3,13 @@
   grid-template-columns: 120px 336px auto;
 }
 
+@media screen and (max-width: 1024px) {
+  .profile {
+    width: calc(100% - 19px * 2);
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .profile {
     display: flex;
