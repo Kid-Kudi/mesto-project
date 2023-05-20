@@ -5,12 +5,10 @@
   max-width: 430px;
   width: 100%;
   background-color: #FFF;
-  min-height: 330px;
 }
 
 @media screen and (max-width: 768px) {
   .popup__container {
     max-width: 282px;
-    min-height: 322px;
   }
 }
